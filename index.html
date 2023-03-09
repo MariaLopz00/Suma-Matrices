@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Suma Matrix</title>
+
+    <style>
+        .inp{
+
+           width: 50px;
+           border-radius: 5px;
+
+        }
+    </style>
+</head>
+<body style="background-image: url('fondo.jpg');">
+   
+    <div style="margin-left: 780px; ">
+
+        <div class="card mb-3"  style="width: 25rem; margin-top: 100px; background-color: #94AC94;border-color: antiquewhite; ">
+            <div class="card-body">
+                <label for="" style="color: black; font-size: 40px;">matriz</label>
+                <input type="number" id="num1" value="0" class="inp"> 
+                <input type="number" id="num2" value="0" class="inp"> 
+                <input type="number" id="num3" value="0" class="inp"> 
+               
+               
+               
+                <label for=""style="color: black; font-size: 40px ; ">matriz</label>
+                <input type="number" id="num4" value="0"class="inp"> 
+                <input type="number" id="num5" value="0"class="inp"> 
+                <input type="number" id="num6" value="0"class="inp"> 
+               
+               
+                <button type="button" class="btn btn" style="margin-bottom: 10px; width: 80px; background-color: #D80F0F;color: white;" onclick="sumar()" >Sumar</button>
+                
+                <div style="width: 300px;" >
+               
+                   <table class="table table-bordered " border="2px" style="border-color: #D80F0F;">
+                       <tbody id="result">
+               
+                       </tbody>
+                   </table>
+               
+                </div>
+            </div>
+        </div>
+
+
+        
+        
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
